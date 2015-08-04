@@ -29,6 +29,8 @@
 	<title>Carousel</title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="generator" content="Geany 1.24" />
+  
+  <link rel="stylesheet" type="text/css" href="lib/carousel.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 	<script type="text/javascript" src="lib/carousel.js"></script>
@@ -37,16 +39,17 @@
 <body>
 	<div id="content">
     <div id='frame'>
-      <div id='slides'><img src='http://www.zenefits.com/static/marketing/img/carriers/img.jpg' /></div>
+      <img id='crntImg' src='http://img.wikinut.com/img/gycf69_-6rv_5fol/jpeg/0/Best-Friends-Img-Src%3AImage%3A-FreeDigitalPhotos.net.jpeg' />
     </div>
       
-      <button><-</button>
-      <button>-></button>
+      <button id="previous"><-</button>
+      <button id="pause">| |</button>
+      <button id="next">-></button>
       
-      <div id='dots'>
-        <button id='dot1'><img src="http://icons.iconarchive.com/icons/fi3ur/fruitsalad/16/strawberry-icon.png" /></button>
-        <button id='dot2'><img src="http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/16/Status-user-online-icon.png" /></button>
-        <button id='dot3'><img src="http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/16/Status-user-online-icon.png" /></button>
+      <div class='carousel-tracker'>
+        <button><img id='carousel-tracker-1' src="http://icons.iconarchive.com/icons/fi3ur/fruitsalad/16/strawberry-icon.png" /></button>
+        <button><img id='carousel-tracker-2' src="http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/16/Status-user-online-icon.png" /></button>
+        <button><img id='carousel-tracker-3' src="http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/16/Status-user-online-icon.png" /></button>
       </div>
     </div>
   </div>
