@@ -1,2 +1,2 @@
 # js-carousel
-A JavaScript carousel for learning.
+A JavaScript slideshow for learning.
